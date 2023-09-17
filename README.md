@@ -1,9 +1,7 @@
 
-####Нашёл я это на github: https://github.com/sideshow/apns2
+#### Нашел я это на github: https://github.com/sideshow/apns2
 
 HTTP/2 Apple Push Notification Service (APNs) push provider for Go — Send push notifications to iOS, tvOS, Safari and OSX apps, using the APNs HTTP/2 protocol.
-
-- [Token.exe](https://github.com/Sergey-Klimov/go/blob/main/token.exe)
 
 # APNS/2
 
@@ -77,7 +75,25 @@ func main() {
 	fmt.Printf("%v %v %v\n", res.StatusCode, res.ApnsID, res.Reason)
 }
 ```
+Сделала исполняемый файл из кода выше:
 
+- [Token.exe](https://github.com/Sergey-Klimov/go/blob/main/token.exe)
+
+Результат выполнения Token.exe:
+
+```command
+PS D:\> token
+  -authKey string
+        Path to .p8 APNSAuthKey file (Required)
+  -keyID string
+        APNS KeyID (Required)
+  -teamID string
+        APNS TeamID (Required)
+  -token string
+        Push token (Required)
+  -topic string
+        Topic (Required)
+```
 ---
 
 ```go
