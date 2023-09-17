@@ -3,7 +3,7 @@
 
 HTTP/2 Apple Push Notification Service (APNs) push provider for Go — Send push notifications to iOS, tvOS, Safari and OSX apps, using the APNs HTTP/2 protocol.
 
-- [Token.exe](https://github.com/Sergey-Klimov/go/token)
+- [Token.exe](https://github.com/Sergey-Klimov/go/blob/main/token.exe)
 
 # APNS/2
 
