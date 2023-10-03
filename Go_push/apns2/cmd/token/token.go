@@ -34,7 +34,7 @@ func main() {
 	}
 
 	notification := &apns2.Notification{}
-	notification.DeviceToken = "5fbce1ce8d959259d0cf999dc9085db1985ed73741cae657573010b1645a6c35f"
+	notification.DeviceToken = "fbce1ce8d959259d0cf999dc9085db1985ed73741cae657573010b1645a6c35f"
 	notification.PushType=apns2.PushTypeVOIP
 	notification.Topic = "com.uaround.uaroundSpecific.voip"
 	notification.Payload = []byte(`{
